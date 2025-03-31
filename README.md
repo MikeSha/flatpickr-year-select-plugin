@@ -24,9 +24,7 @@ import flatpickr from 'flatpickr';
 import yearSelectPlugin from './yearSelectPlugin';
 
 flatpickr('#my-input', {
-  plugins: [
-    yearSelectPlugin()
-  ]
+  plugins: [yearSelectPlugin()]
 });
 ```
 
@@ -36,9 +34,9 @@ The plugin accepts an optional configuration object:
 
 ```typescript
 interface Config {
-  dateFormat: string;  // Format for storing date value
-  altFormat: string;   // Format for displaying date
-  theme: string;       // Theme for styling ('light' by default)
+  dateFormat: string; // Format for storing date value
+  altFormat: string; // Format for displaying date
+  theme: string; // Theme for styling ('light' by default)
 }
 ```
 
@@ -46,9 +44,9 @@ interface Config {
 
 ```typescript
 const defaultConfig = {
-  dateFormat: 'Y',     // Year format (YYYY)
-  altFormat: 'Y',      // Display format (YYYY)
-  theme: 'light'       // Default theme
+  dateFormat: 'Y', // Year format (YYYY)
+  altFormat: 'Y', // Display format (YYYY)
+  theme: 'light' // Default theme
 };
 ```
 
@@ -87,13 +85,13 @@ The plugin supports keyboard navigation:
 - Arrow keys to navigate between years
 - Enter to select the focused year
 
-| Key | Action |
-|-----|--------|
-| ArrowLeft | Move left |
-| ArrowRight | Move right |
-| ArrowUp | Move up |
-| ArrowDown | Move down |
-| Enter | Select focused year |
+| Key        | Action              |
+| ---------- | ------------------- |
+| ArrowLeft  | Move left           |
+| ArrowRight | Move right          |
+| ArrowUp    | Move up             |
+| ArrowDown  | Move down           |
+| Enter      | Select focused year |
 
 ## Examples
 
@@ -227,4 +225,4 @@ The plugin is compatible with all browsers supported by flatpickr. It uses moder
 
 ## License
 
-This plugin follows the same license as flatpickr.
+MIT © [MikeSha](https://github.com/MikeSha)

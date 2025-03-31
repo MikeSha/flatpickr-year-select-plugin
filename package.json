@@ -1,5 +1,5 @@
 {
-  "name": "flatpickr-year-select-plugin",
+  "name": "@mikesha/flatpickr-year-select-plugin",
   "author": "MikeSha",
   "license": "MIT",
   "main": "build/index.cjs.js",
