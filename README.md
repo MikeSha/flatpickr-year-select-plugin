@@ -3,7 +3,7 @@
 A plugin for [flatpickr](https://flatpickr.js.org/) that transforms the date picker into a year selector with a decade-based navigation interface.
 
 ## Support me
-If you like what I'm doing, support me: https://ko-fi.com/mykeshato
+If you like what I'm doing, please support me: https://ko-fi.com/mykeshato
 
 ## Installation
 
